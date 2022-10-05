@@ -56,7 +56,7 @@ const age = 16;
 if (age >= 17/*replace with your own code*/) {
     console.log(`You are ${age}. You are old enough to see any movie: R, PG-13, PG, or G.`);
 } else if (age >= 13) {
-    console.log('You are old enough to see PG-13, PG or G Movies.' ); //replace with your own code
+    console.log(`You are ${age}. You are old enough to see PG-13, PG or G Movies.` ); //replace with your own code
 } else {
     console.log(`You are ${age}. You are only old enough to see PG and G movies.`);
 }
