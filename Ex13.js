@@ -19,8 +19,9 @@ if (myPassword.length < 10) {
 
 //ex13.3
 console.log(' ')
-let day = "Tuesday";
-let special = ""; //you don't know what the special will be yet so make it an empty string for now
+let day = "Saturday";
+let special = ""; 
+//you don't know what the special will be yet so make it an empty string for now
 
 if (day == "Monday") {
     special = "blueberry muffin";
@@ -41,4 +42,21 @@ if (day == "Monday") {
 //if the length of special is not greater than 0 it means it’s still empty and thus it must be a weekend
 if (special.length > 0) {
     console.log(`Today is ${day} and the special is ${special}.`);
+}
+//ex13.3
+console.log(' ')
+/*Fill in the provided code template to let someone know which movie 
+ratings they are able to see based on their age. 
+People aged 17 and up can see any movie; 
+people aged 13-16 can see PG-13, PG, or G movies, 
+and everyone else can only see PG or G movies. */
+
+const age = 16;
+
+if (age >= 17/*replace with your own code*/) {
+    console.log(`You are ${age}. You are old enough to see any movie: R, PG-13, PG, or G.`);
+} else if (age >= 13) {
+    console.log('You are old enough to see PG-13, PG or G Movies.' ); //replace with your own code
+} else {
+    console.log(`You are ${age}. You are only old enough to see PG and G movies.`);
 }
